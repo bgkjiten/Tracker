@@ -11,7 +11,9 @@ Terraform
 
 AI
 
-Docker Networking part
+Docker 
+
+Networking part
 
 Monitoring setup
 Lucid for system and architecture design
