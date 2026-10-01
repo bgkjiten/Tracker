@@ -1,0 +1,924 @@
+Yes. And there is an important update to the certification path: **as of October 2026, the old AI-900 and AI-102 certifications are retired**. Microsoft replaced that path with **AI-901** at fundamentals level and **AI-103** at the AI engineer/developer level. ([Microsoft Learn][1])
+
+For **your 12 years of DevOps/Azure experience**, I would not follow a generic AI-engineer roadmap. I'd use the certification path as a framework, while making the labs heavily DevOps-oriented.
+
+# Recommended Azure AI roadmap for you
+
+```text
+Azure / DevOps experience
+          │
+          ▼
+  Phase 0: Python + REST API
+          │
+          ▼
+  AI-901 Azure AI Fundamentals
+          │
+          ▼
+  Generative AI + Azure OpenAI
+          │
+          ▼
+  AI-103 Azure AI Apps & Agents
+          │
+          ▼
+  Agents + Tool Calling + MCP
+          │
+          ▼
+  AI + DevOps Integration
+          │
+          ▼
+  Advanced Azure AI / Agentic DevOps
+```
+
+## The certifications I recommend
+
+| Stage | Certification                                           | Your priority  |
+| ----- | ------------------------------------------------------- | -------------- |
+| 0     | Python + REST APIs                                      | 🔴 High        |
+| 1     | **AI-901 Azure AI Fundamentals**                        | 🟢 Do it       |
+| 2     | Azure OpenAI / Foundry                                  | 🔴 Very high   |
+| 3     | **AI-103 Azure AI Apps and Agents Developer Associate** | 🔴 Main target |
+| 4     | AI agents / tools / MCP                                 | 🔴 Very high   |
+| 5     | AI + DevOps projects                                    | 🔴 Very high   |
+| 6     | Advanced/specialized Azure AI                           | 🟡 Optional    |
+
+Microsoft describes AI-103 as an intermediate certification for people who build, manage and deploy AI applications and agents using Python and Microsoft Foundry. ([Microsoft Learn][2])
+
+That is much closer to what you told me you want to do.
+
+---
+
+# Phase 0 — Don't start with AI
+
+### Duration: 1–2 weeks
+
+Because you already know Azure and DevOps, your main gap is **programmatic AI integration**.
+
+Learn only:
+
+### Python
+
+You don't need advanced Python.
+
+Learn:
+
+```text
+variables
+functions
+lists/dictionaries
+JSON
+exceptions
+files
+modules
+virtual environments
+pip
+requests
+environment variables
+```
+
+### REST APIs
+
+Understand:
+
+```text
+GET
+POST
+PUT
+DELETE
+
+Headers
+Authentication
+JSON request
+JSON response
+HTTP status codes
+```
+
+Example:
+
+```text
+Python
+   ↓
+POST
+   ↓
+AI API
+   ↓
+JSON response
+```
+
+### Azure authentication
+
+Learn:
+
+```text
+Managed Identity
+Microsoft Entra ID
+DefaultAzureCredential
+RBAC
+```
+
+This is particularly important for you because you're already working with:
+
+* Managed Identity
+* RBAC
+* Key Vault
+* Azure resources
+
+So you can connect what you already know to AI.
+
+---
+
+# Phase 1 — AI-901
+
+### Certification: Microsoft Azure AI Fundamentals
+
+**Time: ~2–3 weeks**
+
+[Microsoft Azure AI Fundamentals / AI-901](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?utm_source=chatgpt.com)
+
+The current certification is **AI-901**, not AI-900. Microsoft updated the certification in 2026, and the old AI-900 retired June 30, 2026. ([Microsoft Learn][3])
+
+### What you'll learn
+
+```text
+AI concepts
+Machine learning concepts
+Computer vision
+NLP
+Generative AI
+Azure AI services
+Microsoft Foundry
+```
+
+You do **not** need to become a machine-learning engineer.
+
+Your objective is simply to understand:
+
+> "What Azure AI service should I use for this problem?"
+
+---
+
+# Don't spend too long on AI-901
+
+For you:
+
+**AI-901 = foundation, not destination.**
+
+You already have significant Azure experience.
+
+I'd target:
+
+```text
+AI-901
+   ↓
+PASS
+   ↓
+move immediately to AI-103
+```
+
+Don't spend 2–3 months studying AI theory.
+
+---
+
+# Phase 2 — Azure OpenAI / Microsoft Foundry
+
+### Duration: 3–4 weeks
+
+This is where your actual career transition starts.
+
+Learn:
+
+```text
+Microsoft Foundry
+Models
+Model catalog
+Generative AI
+Prompts
+System instructions
+Tokens
+Temperature
+Structured output
+REST APIs
+SDKs
+Azure authentication
+```
+
+Most importantly:
+
+## Learn how to call a model
+
+For example:
+
+```text
+GitHub Action
+      ↓
+Python
+      ↓
+Azure AI API
+      ↓
+LLM
+      ↓
+JSON response
+```
+
+Then:
+
+```text
+Pipeline error
+      ↓
+Python
+      ↓
+LLM
+      ↓
+"Explain this error"
+      ↓
+Root cause
+      ↓
+Suggested solution
+```
+
+This is the first project I want you to build.
+
+---
+
+# Phase 3 — AI-103
+
+## Microsoft Certified: Azure AI Apps and Agents Developer Associate
+
+This should be your **main certification**.
+
+[Microsoft Certified: Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate?utm_source=chatgpt.com)
+
+Microsoft currently describes AI-103 as an **intermediate** certification focused on developing and deploying AI applications and agents using Python and Microsoft Foundry. ([Microsoft Learn][2])
+
+This is the certification I'd put on your target list.
+
+---
+
+# What AI-103 means for YOU
+
+Don't think:
+
+> "I need to become an AI developer."
+
+Think:
+
+> "I need to learn how to build an application that uses an existing AI model."
+
+That's a huge difference.
+
+You should learn:
+
+```text
+Application
+    ↓
+AI model
+    ↓
+Prompt
+    ↓
+Context
+    ↓
+Tools
+    ↓
+External systems
+```
+
+---
+
+# AI-103 Topic 1 — Generative AI
+
+Learn:
+
+```text
+LLM
+Prompt
+Context
+Tokens
+Embeddings
+Structured output
+Model selection
+Model deployment
+Evaluation
+```
+
+Don't go deeply into:
+
+```text
+Backpropagation
+CNN architecture
+Transformer mathematics
+Training models from scratch
+```
+
+unless you later decide you want to become an AI/ML engineer.
+
+---
+
+# AI-103 Topic 2 — RAG
+
+This is important.
+
+Learn:
+
+> Retrieval-Augmented Generation
+
+Example:
+
+```text
+Your company's Kubernetes documentation
+                 ↓
+             AI Search
+                 ↓
+              Context
+                 ↓
+                LLM
+                 ↓
+          Troubleshooting
+```
+
+For your DevOps use case:
+
+```text
+Kubernetes documentation
+Azure architecture documents
+Internal deployment standards
+Runbooks
+Incident history
+Terraform modules
+ARM templates
+GitHub workflow documentation
+         ↓
+       RAG
+         ↓
+       AI
+```
+
+Then an engineer can ask:
+
+> Why is this deployment failing?
+
+The AI can use your organization's actual documentation rather than relying only on its general knowledge.
+
+---
+
+# AI-103 Topic 3 — AI Agents
+
+This is probably the **most important part for your career goal**.
+
+Traditional chatbot:
+
+```text
+Question
+ ↓
+LLM
+ ↓
+Answer
+```
+
+Agent:
+
+```text
+Question
+   ↓
+ AI Agent
+   ↓
+ ┌──────────────┐
+ │ Tools        │
+ ├──────────────┤
+ │ kubectl      │
+ │ GitHub API   │
+ │ Azure API    │
+ │ Azure Monitor│
+ │ Key Vault    │
+ └──────────────┘
+   ↓
+Analysis
+   ↓
+Recommendation
+```
+
+Now we're getting into **AI-powered DevOps**.
+
+---
+
+# Phase 4 — Function calling / tool calling
+
+### Duration: 2–3 weeks
+
+This should be a major focus.
+
+Suppose your AI says:
+
+```text
+I need to inspect the pod logs.
+```
+
+Your application provides a function:
+
+```text
+get_pod_logs(namespace, pod)
+```
+
+The AI requests the function.
+
+Your Python program executes:
+
+```bash
+kubectl logs ...
+```
+
+Then gives the output back to the model.
+
+The model analyzes it.
+
+That's fundamentally different from simply putting logs into ChatGPT.
+
+---
+
+# Your first serious project
+
+## AI Kubernetes Troubleshooter
+
+Build:
+
+```text
+                 User
+                   │
+                   ▼
+             AI Agent
+                   │
+        ┌──────────┼───────────┐
+        ▼          ▼           ▼
+    get_logs   describe     events
+        │          │           │
+        └──────────┼───────────┘
+                   ▼
+                  AI
+                   │
+                   ▼
+             Diagnosis
+                   │
+                   ▼
+          Recommended Fix
+```
+
+For example:
+
+```text
+User:
+
+Why is payment-api in CrashLoopBackOff?
+```
+
+Agent:
+
+```text
+1. Get pod status
+2. Get pod logs
+3. Describe pod
+4. Get events
+5. Inspect deployment
+6. Analyze
+```
+
+Output:
+
+```text
+Likely root cause:
+Environment variable DATABASE_URL is missing.
+
+Evidence:
+Container logs show...
+Deployment configuration shows...
+
+Recommended remediation:
+Add DATABASE_URL to the appropriate Secret.
+
+Validation:
+kubectl ...
+```
+
+**Do not allow automatic destructive actions initially.**
+
+Keep:
+
+```text
+AI → diagnosis → human approval → action
+```
+
+---
+
+# Phase 5 — MCP
+
+### Duration: 1–2 weeks
+
+After you understand tool/function calling, learn **MCP (Model Context Protocol)**.
+
+Think of it conceptually as:
+
+```text
+             AI
+              │
+             MCP
+              │
+    ┌─────────┼──────────┐
+    ▼         ▼          ▼
+ Kubernetes  GitHub     Azure
+```
+
+This becomes particularly interesting for someone with your background because you have multiple environments and tools.
+
+You could eventually have:
+
+```text
+AI Agent
+   │
+   ├── Kubernetes MCP
+   ├── GitHub MCP
+   ├── Azure MCP
+   ├── Documentation
+   └── Monitoring
+```
+
+---
+
+# Phase 6 — AI + CI/CD
+
+This is where I would specialize.
+
+Build an:
+
+# AI CI/CD Failure Analyzer
+
+Your existing environment is almost perfect for this.
+
+```text
+GitHub Actions
+       │
+       ▼
+Pipeline failure
+       │
+       ▼
+Collect logs
+       │
+       ▼
+Python
+       │
+       ▼
+Azure AI
+       │
+       ▼
+Analysis
+       │
+       ├── Root cause
+       ├── Evidence
+       ├── Suggested fix
+       └── Commands
+```
+
+Then integrate the result into GitHub:
+
+```text
+❌ Pipeline failed
+
+AI analysis:
+
+Failure:
+Terraform deployment failed.
+
+Likely cause:
+...
+
+Evidence:
+...
+
+Suggested remediation:
+...
+
+Relevant Terraform resource:
+...
+```
+
+That becomes a very good portfolio project because it combines:
+
+```text
+Azure
++
+GitHub Actions
++
+Python
++
+REST API
++
+LLM
++
+DevOps
+```
+
+---
+
+# Phase 7 — AI + Azure
+
+Then build:
+
+## Azure Infrastructure Troubleshooting Agent
+
+Give the agent read-only access to Azure APIs.
+
+For example:
+
+```text
+AI Agent
+   │
+   ├── Resource Graph
+   ├── Azure Monitor
+   ├── Application Insights
+   ├── Activity Logs
+   ├── Key Vault
+   ├── RBAC
+   └── Network information
+```
+
+User:
+
+> Why isn't my Function App able to access Key Vault?
+
+Agent investigates:
+
+```text
+Function App
+       ↓
+Managed Identity
+       ↓
+RBAC
+       ↓
+Key Vault
+       ↓
+Network / Private Endpoint
+       ↓
+Diagnostic logs
+```
+
+Then produces a diagnosis.
+
+This uses **your existing Azure knowledge**, so you're not starting from zero.
+
+---
+
+# Phase 8 — Advanced AI
+
+Once you've completed AI-103, move into:
+
+```text
+Agents
+   ↓
+RAG
+   ↓
+AI Search
+   ↓
+Tool calling
+   ↓
+MCP
+   ↓
+Multi-agent concepts
+   ↓
+Evaluation
+   ↓
+Observability
+   ↓
+Security
+   ↓
+Responsible AI
+```
+
+The important thing for an experienced DevOps engineer is **production AI**, not just making a chatbot.
+
+Focus heavily on:
+
+### Security
+
+```text
+Managed Identity
+RBAC
+Secrets
+Network isolation
+Private endpoints
+Data protection
+Prompt injection
+Tool permissions
+```
+
+### Observability
+
+```text
+Logs
+Tracing
+Token usage
+Latency
+Cost
+Model performance
+Agent behavior
+```
+
+### Governance
+
+```text
+Who can call the agent?
+What can it execute?
+What data can it access?
+What actions require approval?
+```
+
+This is where your existing DevOps/SRE experience becomes highly relevant.
+
+---
+
+# Your complete roadmap
+
+```text
+MONTH 1
+────────────────────────
+
+Python basics
+REST API
+JSON
+Authentication
+Azure identity
+       │
+       ▼
+AI API calls
+
+
+MONTH 2
+────────────────────────
+
+AI-901
+Azure AI concepts
+Generative AI
+Microsoft Foundry
+Azure AI services
+
+       │
+       ▼
+
+AI model integration
+
+
+MONTH 3
+────────────────────────
+
+Azure OpenAI / Foundry
+Prompting
+Structured output
+Embeddings
+RAG
+AI Search
+
+       │
+       ▼
+
+Build CI/CD AI analyzer
+
+
+MONTH 4–5
+────────────────────────
+
+AI-103
+Generative AI
+AI applications
+RAG
+Agents
+Tool calling
+Evaluation
+
+       │
+       ▼
+
+AI Kubernetes Troubleshooter
+
+
+MONTH 6
+────────────────────────
+
+MCP
+Advanced agents
+Azure integration
+GitHub integration
+Kubernetes integration
+
+       │
+       ▼
+
+AI DevOps Agent
+
+
+MONTH 7+
+────────────────────────
+
+Production AI
+Security
+Observability
+Governance
+Cost optimization
+Agent evaluation
+
+       │
+       ▼
+
+Production-grade
+AI DevOps platform
+```
+
+---
+
+# Certification vs actual learning
+
+I'd make this distinction very clear.
+
+### Certification path
+
+```text
+AI-901
+   ↓
+AI-103
+```
+
+### Actual skill path
+
+```text
+Python
+ ↓
+REST API
+ ↓
+Azure AI / Foundry
+ ↓
+LLM APIs
+ ↓
+RAG
+ ↓
+Function calling
+ ↓
+Agents
+ ↓
+MCP
+ ↓
+Kubernetes/GitHub/Azure integration
+ ↓
+Production AI
+```
+
+The certification is the **validation**.
+
+The second path is the **skill**.
+
+---
+
+# What I would skip in your case
+
+Given your experience, I would **not** spend significant time on:
+
+❌ AZ-900
+❌ old AI-900
+❌ old AI-102
+❌ Machine-learning mathematics
+❌ Training neural networks
+❌ TensorFlow
+❌ PyTorch
+❌ Building models from scratch
+
+AZ-900 is still a current certification, but you already have substantial Azure infrastructure experience; Microsoft's current AZ-900 audience is people establishing foundational Azure knowledge. ([Microsoft Learn][4])
+
+Also, **AI-102 is no longer a target**: Microsoft retired it on June 30, 2026. ([Microsoft Learn][5])
+
+---
+
+# 🎯 Your target
+
+If I were planning your next 6 months, I'd make the target:
+
+**Certification 1**
+
+> **AI-901 — Azure AI Fundamentals**
+
+**Certification 2**
+
+> **AI-103 — Azure AI Apps and Agents Developer Associate**
+
+**Skills**
+
+> Python → REST API → Azure AI/Foundry → LLM → RAG → Tool Calling → Agents → MCP
+
+**Portfolio**
+
+> **AI CI/CD Failure Analyzer**
+
+> **AI Kubernetes Troubleshooting Agent**
+
+> **AI Azure Infrastructure Troubleshooting Agent**
+
+That combination is much more aligned with your existing DevOps career than trying to become a traditional AI/ML engineer. Microsoft specifically describes the AI-103 role as collaborating with DevOps and cloud security engineers to design, implement and maintain AI solutions, which makes the direction particularly compatible with your current background. ([Microsoft Learn][6])
+
+[1]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900?utm_source=chatgpt.com "Study guide for Exam AI-900: Microsoft Azure AI Fundamentals | Microsoft Learn"
+[2]: https://learn.microsoft.com/credentials/certifications/azure-ai-apps-and-agents-developer-associate?utm_source=chatgpt.com "Microsoft Certified: Azure AI Apps and Agents Developer Associate - Certifications | Microsoft Learn"
+[3]: https://learn.microsoft.com/en-gb/credentials/certifications/azure-ai-fundamentals/?utm_source=chatgpt.com "Microsoft Certified: Azure AI Fundamentals - Certifications | Microsoft Learn"
+[4]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900?utm_source=chatgpt.com "Study guide for Exam AZ-900: Microsoft Azure Fundamentals | Microsoft Learn"
+[5]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102?utm_source=chatgpt.com "Study guide for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution | Microsoft Learn"
+[6]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103?utm_source=chatgpt.com "Study guide for Exam AI-103: Developing AI Apps and Agents on Azure | Microsoft Learn"
