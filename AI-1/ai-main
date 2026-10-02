@@ -922,3 +922,138 @@ That combination is much more aligned with your existing DevOps career than tryi
 [4]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900?utm_source=chatgpt.com "Study guide for Exam AZ-900: Microsoft Azure Fundamentals | Microsoft Learn"
 [5]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102?utm_source=chatgpt.com "Study guide for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution | Microsoft Learn"
 [6]: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103?utm_source=chatgpt.com "Study guide for Exam AI-103: Developing AI Apps and Agents on Azure | Microsoft Learn"
+
+
+===========================================================================================================================================================
+topics and relative 
+===========================================================================================================================================================
+
+
+python
+=======================================
+variables
+functions
+lists/dictionaries
+JSON
+exceptions
+files
+modules
+virtual environments
+pip
+requests
+environment variables
+
+
+REST APIs
+=====================================
+GET
+POST
+PUT
+DELETE
+
+Headers
+Authentication
+JSON request
+JSON response
+HTTP status codes
+
+example 
+=========================
+Python
+   ↓
+POST
+   ↓
+AI API
+   ↓
+JSON response
+
+
+Phase 1 — AI-901
+===================================
+AI concepts
+Machine learning concepts
+Computer vision
+NLP
+Generative AI
+Azure AI services
+Microsoft Foundry
+You do not need to become a machine-learning engineer.Your objective is simply to understand:"What Azure AI service should I use for this problem?"
+
+
+*****************************************************************************************************************
+Phase 2 — Azure OpenAI / Microsoft Foundry  == This is where your actual career transition starts.
+==================================================
+Microsoft Foundry
+Models
+Model catalog
+Generative AI
+Prompts
+System instructions
+Tokens
+Temperature
+Structured output
+REST APIs
+SDKs
+Azure authentication
+
+
+Learn how to call a model For example:
+GitHub Action
+      ↓
+Python
+      ↓
+Azure AI API
+      ↓
+LLM
+      ↓
+JSON response
+
+Below use case
+=============================
+Pipeline error
+      ↓
+Python
+      ↓
+LLM
+      ↓
+"Explain this error"
+      ↓
+Root cause
+      ↓
+Suggested solution
+
+
+Phase 3 — AI-103
+Microsoft Certified: Azure AI Apps and Agents Developer Associate This should be your main certification.
+
+Think: "I need to learn how to build an application that uses an existing AI model."
+learn
+Application
+    ↓
+AI model
+    ↓
+Prompt
+    ↓
+Context
+    ↓
+Tools
+    ↓
+External systems
+
+topics to be learn
+LLM
+Prompt
+Context
+Tokens
+Embeddings
+Structured output
+Model selection
+Model deployment
+Evaluation
+
+dont learn
+Backpropagation
+CNN architecture
+Transformer mathematics
+Training models from scratch
+
